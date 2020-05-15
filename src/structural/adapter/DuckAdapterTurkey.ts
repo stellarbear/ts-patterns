@@ -2,7 +2,7 @@ import { IDuck } from "./duck/IDuck";
 import { ITurkey } from "./turkey/ITurkey";
 
 export class DuckAdapterTurkey implements IDuck {
-    constructor(private turkey: ITurkey) { }
+    constructor(private readonly turkey: ITurkey) { }
     public Introduce(): void {
         this.turkey.Introduce();
     }
