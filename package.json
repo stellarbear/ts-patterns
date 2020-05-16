@@ -1,0 +1,17 @@
+{
+  "name": "ts-patterns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/stellarbear/ts-patterns",
+  "author": "stellarbears <stellarbears@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "adapter": "ts-node ./src/structural/adapter",
+    "decorator": "ts-node ./src/structural/decorator",
+    "facade": "ts-node ./src/structural/facade"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  }
+}
