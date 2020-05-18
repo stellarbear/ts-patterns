@@ -10,6 +10,7 @@
     "decorator": "ts-node ./src/structural/decorator",
     "bridge": "ts-node ./src/structural/bridge",
     "composite": "ts-node ./src/structural/composite",
+    "flyweight": "ts-node ./src/structural/flyweight",
     "facade": "ts-node ./src/structural/facade"
   },
   "devDependencies": {

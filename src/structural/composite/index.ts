@@ -1,4 +1,4 @@
-import { Composite } from "./composite"
+import { Composite } from "./Composite"
 import { Leaf } from "./Leaf"
 
 /*
