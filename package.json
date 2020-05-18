@@ -6,6 +6,7 @@
   "author": "stellarbears <stellarbears@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "builder": "ts-node ./src/creational/builder",
     "adapter": "ts-node ./src/structural/adapter",
     "decorator": "ts-node ./src/structural/decorator",
     "bridge": "ts-node ./src/structural/bridge",
