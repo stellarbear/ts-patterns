@@ -9,6 +9,7 @@
     "adapter": "ts-node ./src/structural/adapter",
     "decorator": "ts-node ./src/structural/decorator",
     "bridge": "ts-node ./src/structural/bridge",
+    "composite": "ts-node ./src/structural/composite",
     "facade": "ts-node ./src/structural/facade"
   },
   "devDependencies": {
