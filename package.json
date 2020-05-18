@@ -8,6 +8,7 @@
   "scripts": {
     "adapter": "ts-node ./src/structural/adapter",
     "decorator": "ts-node ./src/structural/decorator",
+    "bridge": "ts-node ./src/structural/bridge",
     "facade": "ts-node ./src/structural/facade"
   },
   "devDependencies": {

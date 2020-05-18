@@ -1,7 +1,12 @@
 import { Facade } from "./Facade"
-import { TV } from "./objects/tv";
-import { Music } from "./objects/music";
-import { Light } from "./objects/light";
+import { TV } from "./objects/TV";
+import { Music } from "./objects/Music";
+import { Light } from "./objects/Light";
+
+/*
+FACADE:
+It is easy way to manage multiple classes through a simple API
+*/
 
 (() => {
     const facade = new Facade(

@@ -1,6 +1,6 @@
-import { TV } from "./objects/tv";
-import { Music } from "./objects/music";
-import { Light } from "./objects/light";
+import { TV } from "./objects/TV";
+import { Music } from "./objects/Music";
+import { Light } from "./objects/Light";
 
 export class Facade {
     constructor(

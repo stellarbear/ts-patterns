@@ -4,6 +4,11 @@ import { Sugar } from "./extend1/Sugar"
 import { DarkRoast } from "./base/DarkRoast"
 import { MegaCoupon } from "./extend2/MegaCoupon"
 
+/*
+DECORATOR:
+The decorator pattern is a way to extend class / method functionality without modifying it's source code
+Adapter is wrapping original class/interface through constructor and extends/implements it
+*/
 
 (() => {
     const orders = [
