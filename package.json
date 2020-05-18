@@ -11,6 +11,7 @@
     "bridge": "ts-node ./src/structural/bridge",
     "composite": "ts-node ./src/structural/composite",
     "flyweight": "ts-node ./src/structural/flyweight",
+    "proxy": "ts-node ./src/structural/proxy",
     "facade": "ts-node ./src/structural/facade"
   },
   "devDependencies": {

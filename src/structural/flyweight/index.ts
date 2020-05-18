@@ -2,6 +2,10 @@ import { TreeFactory } from "./factory";
 import { Forest } from "./Forest";
 import { TreeType } from "./shared";
 
+/*
+FLYWEIGHT:
+
+*/
 
 (() => {
     const treeTypes: Record<string, TreeType> = {

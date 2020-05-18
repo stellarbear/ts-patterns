@@ -6,6 +6,7 @@ import { MegaCoupon } from "./extend2/MegaCoupon"
 
 /*
 DECORATOR:
+Or so called smart proxy
 The decorator pattern is a way to extend class / method functionality without modifying it's source code
 Adapter is wrapping original class/interface through constructor and extends/implements it
 */
