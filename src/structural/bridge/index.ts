@@ -1,7 +1,8 @@
-import { IRemote } from "./abstraction/IRemote";
-import { Remote } from "./abstraction/Remote";
-import { TV } from "./imlpementation/TV";
-import { Music } from "./imlpementation/Music";
+import { ILogSender } from "./abstraction/ILogSender";
+import { SlackSender } from "./abstraction/SlackSender";
+import { JSONConverter } from "./implementation/JSONConverter";
+import { B64Converter } from "./implementation/B64Converter";
+import { EmailSender } from "./abstraction/EmailSender";
 
 /*
 BRIDGE:
@@ -12,14 +13,15 @@ Implementation may change and these changes do not affect existing code
 */
 
 (() => {
-    const remotes: IRemote[] = [
-        new Remote(new TV()),
-        new Remote(new Music()),
+    const data = 'tiny fox jumps '
+    const senders: ILogSender[] = [
+        new SlackSender(new JSONConverter(data)),
+        new SlackSender(new B64Converter(data)),
+        new EmailSender(new B64Converter(data)),
     ];
 
-    for (let remote of remotes) {
+    for (let sender of senders) {
         console.log('-------------------------')
-        remote.turnOn();
-        remote.turnOff();
+        sender.send();
     }
 })()

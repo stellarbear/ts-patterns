@@ -16,6 +16,7 @@
     "facade": "ts-node ./src/structural/facade"
   },
   "devDependencies": {
+    "@types/node": "^14.0.1",
     "ts-node": "^8.10.1",
     "typescript": "^3.9.2"
   }
