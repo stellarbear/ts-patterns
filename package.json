@@ -7,15 +7,16 @@
   "license": "MIT",
   "scripts": {
     "builder": "ts-node ./src/creational/builder",
+    "prototype": "ts-node ./src/creational/prototype",
     "singleton": "ts-node ./src/creational/singleton",
 
     "adapter": "ts-node ./src/structural/adapter",
-    "decorator": "ts-node ./src/structural/decorator",
     "bridge": "ts-node ./src/structural/bridge",
     "composite": "ts-node ./src/structural/composite",
+    "decorator": "ts-node ./src/structural/decorator",
+    "facade": "ts-node ./src/structural/facade",
     "flyweight": "ts-node ./src/structural/flyweight",
-    "proxy": "ts-node ./src/structural/proxy",
-    "facade": "ts-node ./src/structural/facade"
+    "proxy": "ts-node ./src/structural/proxy"
   },
   "devDependencies": {
     "@types/node": "^14.0.1",
