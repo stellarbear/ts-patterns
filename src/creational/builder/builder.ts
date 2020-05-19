@@ -1,6 +1,13 @@
-import { IBuilder } from "./IBuilder";
-import { IVehicle } from "../object/IVehicle";
-import { Vehicle } from "../object/Vehicle";
+import { Vehicle, IVehicle } from "./vehicle";
+
+export interface IBuilder {
+    setWheels(n: number): IBuilder
+    setWindows(n: number): IBuilder
+    setEngine(n: number): IBuilder
+    setPrice(n: number): IBuilder
+
+    getResult(): IVehicle
+}
 
 export class Builder implements IBuilder {
     vehicle: IVehicle;

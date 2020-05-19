@@ -9,6 +9,8 @@
     "builder": "ts-node ./src/creational/builder",
     "prototype": "ts-node ./src/creational/prototype",
     "singleton": "ts-node ./src/creational/singleton",
+    "factoryMethod": "ts-node ./src/creational/factoryMethod",
+    "abstractFactory": "ts-node ./src/creational/abstractFactory",
 
     "adapter": "ts-node ./src/structural/adapter",
     "bridge": "ts-node ./src/structural/bridge",

@@ -1,5 +1,10 @@
 import { Singleton } from "./singleton"
 
+/*
+SINGLETON:
+could be lazy instantiated through static method call
+*/
+
 (() => {
     let instance1 = Singleton.getInstance();
     let instance2 = Singleton.getInstance();
