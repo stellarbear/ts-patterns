@@ -7,6 +7,8 @@
   "license": "MIT",
   "scripts": {
     "builder": "ts-node ./src/creational/builder",
+    "singleton": "ts-node ./src/creational/singleton",
+
     "adapter": "ts-node ./src/structural/adapter",
     "decorator": "ts-node ./src/structural/decorator",
     "bridge": "ts-node ./src/structural/bridge",
