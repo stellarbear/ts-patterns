@@ -8,6 +8,7 @@
   "scripts": {
     "observer": "ts-node ./src/behavioral/observer",
     "command": "ts-node ./src/behavioral/command",
+    "iterator": "ts-node ./src/behavioral/iterator",
 
     "builder": "ts-node ./src/creational/builder",
     "prototype": "ts-node ./src/creational/prototype",
