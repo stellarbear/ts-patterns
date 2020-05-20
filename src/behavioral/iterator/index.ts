@@ -3,6 +3,7 @@ import { LinkedList } from "./iterable"
 /*
 ITERATOR:
 sequence must implement Iterable interface that return Iterator interface
+[Symbol.iterator] could be also applied through the generator + yield
 */
 
 (() => {
