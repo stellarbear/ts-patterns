@@ -13,6 +13,7 @@
     "mediator": "ts-node ./src/behavioral/mediator",
     "strategy": "ts-node ./src/behavioral/strategy",
     "template": "ts-node ./src/behavioral/template",
+    "state": "ts-node ./src/behavioral/state",
     "memento": "ts-node ./src/behavioral/memento",
     "chain": "ts-node ./src/behavioral/chain",
 
