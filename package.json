@@ -10,6 +10,7 @@
     "command": "ts-node ./src/behavioral/command",
     "iterator": "ts-node ./src/behavioral/iterator",
     "visitor": "ts-node ./src/behavioral/visitor",
+    "mediator": "ts-node ./src/behavioral/mediator",
     "chain": "ts-node ./src/behavioral/chain",
 
     "builder": "ts-node ./src/creational/builder",
